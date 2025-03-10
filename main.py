@@ -9,7 +9,8 @@ import os
 logging.basicConfig(level=logging.INFO)
 
 # Токен из переменных окружения (лучше, чем хранить в коде)
-TOKEN = os.getenv("7991412640:AAGgSJNF4ry_reu62mJvvKxeWAcD5b2YAaQ", "7991412640:AAGgSJNF4ry_reu62mJvvKxeWAcD5b2YAaQ")
+TOKEN = "7991412640:AAGgSJNF4ry_reu62mJvvKxeWAcD5b2YAaQ
+
 
 # Инициализация бота и диспетчера
 bot = Bot(token=TOKEN)
